@@ -1,6 +1,9 @@
 @import 'colors'; //Alla sidans färgvärden
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script); //Google fonts för loggan
 
+* {
+	box-sizing: border-box;
+}
 body {
 	background: url(../images/pizzaStart.jpg) no-repeat center center fixed;
 	background-size: cover;
@@ -17,7 +20,6 @@ a {
 //Header
 header {
 		background-color:#FFF;
-		box-sizing: border-box;
 	h1 {
 		font-family: 'Kaushan Script', cursive;
 		font-size: 40px;
@@ -64,13 +66,18 @@ header {
 
 //Main content
 .wrapper {
+		background-color: rgba(255,255,255,0.3);
+		padding:20px;
+		height: 500px;
 		width: 65%;
 		max-width: 1024px;
 		margin:auto;
+		margin-top: 50px;
 		color: #fff;
 		text-shadow: 1px 1px 1px #333;
-	h1 {
-		font-size: 65px;
+	h2 {
+		font-size: 40px;
+		margin: 0;
 	}
 	p {
 		font-size: 20px;

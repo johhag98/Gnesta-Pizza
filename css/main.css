@@ -1,5 +1,8 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+* {
+  box-sizing: border-box; }
+
 body {
   background: url(../images/pizzaStart.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -12,8 +15,7 @@ a {
   text-decoration: none; }
 
 header {
-  background-color: #FFF;
-  box-sizing: border-box; }
+  background-color: #FFF; }
   header h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
@@ -52,13 +54,18 @@ header {
       transform: scaleX(1); }
 
 .wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  height: 500px;
   width: 65%;
   max-width: 1024px;
   margin: auto;
+  margin-top: 50px;
   color: #fff;
   text-shadow: 1px 1px 1px #333; }
-  .wrapper h1 {
-    font-size: 65px; }
+  .wrapper h2 {
+    font-size: 40px;
+    margin: 0; }
   .wrapper p {
     font-size: 20px;
     font-weight: 500; }
