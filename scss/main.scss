@@ -4,6 +4,7 @@
 body {
 	background: url(../images/pizzaStart.jpg) no-repeat center center fixed;
 	background-size: cover;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -63,9 +64,21 @@ header {
 
 //Main content
 .wrapper {
-	width:75%;
-	margin:auto;
+		width: 65%;
+		max-width: 1024px;
+		margin:auto;
+		color: #fff;
+		text-shadow: 1px 1px 1px #333;
+	h1 {
+		font-size: 65px;
+	}
+	p {
+		font-size: 20px;
+		font-weight: 500;
+	}
 }
+
+
 
 // Toast grid 
 @import 'grid';
