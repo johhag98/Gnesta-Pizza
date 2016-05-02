@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<title>Gnestarias</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/leaflet.css"/>
+	<script src="../scripts/scripts.js"></script>
+</head>
+<body>
+	<header class="col col--12-of-12">
+			<h1><a href="../index.html">Gnestarias</a></h1>
+			<ul>
+				<li><a href="../map.html">Pizzakarta</a></li>
+				<li><a href="../about.html">Om</a></li>
+			</ul>
+	</header>
+	<main class="wrapper sub">
+		<div class="row">
+			<img src="#" alt="Bild på Pizzeria" class="col col--12-of-12">
+		</div>
+		<div class="row">
+			<ul>
+				<li class="col col--6-of-12"><a href="#">TEzt</a></li>
+				<li class="col col--6-of-12"><a href="#">TEzt</a></li>
+			</ul>
+		</div>
+		<div class="row">
+			<div id="mapid"></div>
+			<script src="../scripts/leaflet.js"></script>
+			<script>
+			var mymap = L.map('mapid').setView([59.04723, 17.31189], 15);
+
+			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
+			{
+				maxZoom: 18,
+				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +'Imagery © <a href="http://mapbox.com">Mapbox</a>',id: 'mapbox.streets'
+			}).addTo(mymap);
+
+			L.marker([59.04723, 17.31189]).addTo(mymap).bindPopup("<b>Lilla huset Gorges</b>").openPopup();
+
+
+
+			var popup = L.popup();
+			</script>
+		</div>
+	</main>
+</body>
+</body>
+</html>
