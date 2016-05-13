@@ -165,10 +165,14 @@ header {
   .menu h1:after {
     content: "===="; } }
 @media (max-width: 900px) and (min-width: 700px) {
-  .wrapper p {
-    font-size: 18px; }
+  .wrapper p, .wrapper a p {
+    font-size: 18px; } }
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 35px;
+    text-align: center; }
 
-  .wrapper a p {
+  header li a {
     font-size: 18px; } }
 /*-----------------------------------*\
 
