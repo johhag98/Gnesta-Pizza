@@ -51,15 +51,13 @@ header {
       background-color: black;
       visibility: hidden;
       -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+      transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
     header li a:hover:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
-      -ms-transform: scaleX(1);
-          transform: scaleX(1); }
+      transform: scaleX(1); }
 
 .wrapper {
   background-color: white;
@@ -97,15 +95,13 @@ header {
       background-color: white;
       visibility: hidden;
       -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+      transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
   .wrapper a:hover p:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-        transform: scaleX(1); }
+    transform: scaleX(1); }
 
 .main {
   background-color: rgba(51, 51, 51, 0.3);
@@ -132,15 +128,13 @@ header {
       background-color: black;
       visibility: hidden;
       -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+      transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
     .sub li a:hover:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
-      -ms-transform: scaleX(1);
-          transform: scaleX(1); }
+      transform: scaleX(1); }
 
 #mapid {
   height: 40vh;
@@ -169,16 +163,13 @@ header {
     content: "===="; }
 
   .menu h1:after {
-    content: "===="; } }
-@media (max-width: 900px) and (min-width: 700px) {
-  .wrapper p, .wrapper a p {
-    font-size: 18px; }
+    content: "===="; }
 
   .wrapper {
     width: 75%; } }
-@media (max-width: 700px) {
-  .wrapper {
-    width: 85%; } }
+@media (max-width: 900px) and (min-width: 700px) {
+  .wrapper p, .wrapper a p {
+    font-size: 18px; } }
 @media (max-width: 480px) {
   header h1 {
     font-size: 35px;

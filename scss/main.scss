@@ -129,13 +129,13 @@ header {
 
 
 
-//Main är en wrapper typ som används på startsidan. 
+//Main är en wrapper typ som används på startsidan.
 .main {
 	background-color: rgba(51,51,51,0.3);
 	text-shadow: 1px 1px 1px #333;
 }
 
-//Subsidornas wrapper 
+//Subsidornas wrapper
 .sub {
 		color: $black;
 	img {
@@ -211,6 +211,15 @@ header {
 	.wrapper p, .wrapper a p {
 		font-size: 18px;
 	}
+	.wrapper {
+		width: 75%;
+	}
+}
+
+@media (max-width: 700px) {
+	.wrapper {
+		width: 85%;
+	}
 }
 
 @media (max-width: 480px) {
@@ -221,6 +230,9 @@ header {
 	header li a {
 		font-size: 18px;
 	}
+	.wrapper {
+		width: 100%;
+	}
 }
-// Toast grid 
+// Toast grid
 @import 'grid';
