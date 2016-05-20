@@ -121,9 +121,10 @@ header {
     margin: auto;
     margin-bottom: 20px; }
   .sub .img {
-    background: url(../images/Arena.jpg) no-repeat center fixed;
+    background: url(../images/Arena.jpg) no-repeat;
     height: 200px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background-size: cover; }
   .sub li a {
     color: black;
     font-size: 25px;
@@ -165,18 +166,23 @@ header {
     color: #333; }
   .menu .price {
     float: right; }
-  .menu h1 {
+  .menu .menyh1 {
     text-align: center;
     margin-left: 20px; }
+  .menu dl {
+    margin-top: 20px; }
   .menu dd {
     margin: 0; }
 
 @media (min-width: 700px) {
-  .menu h1:before {
+  .menu .menyh1:before {
     content: "===="; }
 
-  .menu h1:after {
-    content: "===="; } }
+  .menu .menyh1:after {
+    content: "===="; }
+
+  .sub .img {
+    height: 250px; } }
 @media (max-width: 900px) and (min-width: 700px) {
   .wrapper p, .wrapper a p {
     font-size: 18px; }
