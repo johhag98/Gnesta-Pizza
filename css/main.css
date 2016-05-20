@@ -19,6 +19,9 @@ ul {
   margin: 0;
   list-style-type: none; }
 
+.smalbold {
+  font-weight: 500; }
+
 header {
   background-color: white;
   position: fixed;
@@ -79,7 +82,8 @@ header {
     text-align: center; }
   .wrapper a img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin-top: 5px; }
   .wrapper a p {
     color: white;
     display: inline-block;
@@ -114,8 +118,11 @@ header {
 .sub {
   color: black; }
   .sub img {
-    height: 200px;
     margin: auto;
+    margin-bottom: 20px; }
+  .sub .img {
+    background: url(../images/arena.jpg) no-repeat center fixed;
+    height: 200px;
     margin-bottom: 20px; }
   .sub li a {
     color: black;

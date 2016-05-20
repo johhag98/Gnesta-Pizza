@@ -17,13 +17,27 @@
 			</ul>
 	</header>
 	<main class="wrapper sub">
-		<div class="row">
-			<img src="#" alt="Bild på Pizzeria" class="col col--12-of-12">
+		<div class="row--no-gutter">
+			<div class="img col col--3-of-3"></div>
+			<!-- <img src="../images/arena.jpg" alt="Bild på Pizzeria" class="col col--12-of-12"> -->
 		</div>
 		<div class="row">
-			<div class="col col--3-of-12"><b>Telefon:</b> <br> <a href="tel: +4615826337">0158-263 37</a> </div>
-			<div class="col col--3-of-12"><b>Adress:</b> <br> Nibblegatan 1 <br> 646 30 Gnesta</div>
-			<div class="col col--6-of-12">
+			<div class="col col--2-of-12">
+				<b>Telefon:</b> <br>
+				<a href="tel: +4615826337">0158-263 37</a>
+			</div>
+			<div class="col col--2-of-12">
+				<b>Adress:</b> <br>
+				Nibblegatan 2 <br> 646 30 Gnesta
+			</div>
+			<div class="col col--3-of-12">
+				<b>Öppetider:</b> <br>
+				<b class="smalbold">Söndag - Torsdag:</b> <br>
+				11:00 - 21:00 <br>
+				<b class="smalbold">Fredag - Lördag:</b> <br>
+				11:00 - 22:00 <br>
+			</div>
+			<div class="col col--5-of-12">
 				<ul>
 					<li><a href="menu.html">Meny</a></li>
 				</ul>
@@ -33,7 +47,7 @@
 			<div id="mapid"></div>
 			<script src="../scripts/leaflet.js"></script>
 			<script>
-			var mymap = L.map('mapid').setView([59.03859, 17.32952], 15);
+			var mymap = L.map('mapid').setView([59.03882, 17.32935], 15);
 
 			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw',
 			{
@@ -41,7 +55,7 @@
 				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +'Imagery © <a href="http://mapbox.com">Mapbox</a>',id: 'mapbox.streets'
 			}).addTo(mymap);
 
-			L.marker([59.03859, 17.32952]).addTo(mymap).bindPopup("<b>Arena</b>").openPopup();
+			L.marker([59.03882, 17.32935]).addTo(mymap).bindPopup("<b>Arena</b>").openPopup();
 
 
 

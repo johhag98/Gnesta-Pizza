@@ -23,6 +23,9 @@ ul {
 	list-style-type:none;
 }
 
+.smalbold {
+	font-weight: 500;
+}
 
 //Header
 header {
@@ -97,7 +100,7 @@ header {
 	a img {
 		width: 100%;
 		height: auto;
-
+		margin-top: 5px;
 	}
 	a p {
 		color: $white;
@@ -139,8 +142,13 @@ header {
 .sub {
 		color: $black;
 	img {
-		height: 200px;
+		// height: 200px;
 		margin: auto;
+		margin-bottom: 20px;
+	}
+	.img {
+		background: url(../images/arena.jpg) no-repeat  center fixed;
+		height: 200px;
 		margin-bottom: 20px;
 	}
 	li a{
