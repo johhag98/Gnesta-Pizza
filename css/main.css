@@ -127,6 +127,10 @@ header {
     background: url(../images/dragon.jpg) no-repeat;
     height: 200px;
     background-size: cover; }
+  .sub .georges {
+    background: url(../images/georges.jpg) no-repeat;
+    height: 200px;
+    background-size: cover; }
   .sub li a {
     color: black;
     font-size: 25px;
