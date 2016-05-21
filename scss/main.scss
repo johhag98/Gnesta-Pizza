@@ -27,14 +27,18 @@ ul {
 	font-weight: 500;
 }
 
+.margin-top {
+	margin-top: 20px;
+}
+
 //Header
 header {
-		background-color:$white;
+		background-color:$white ;
 		position: fixed;
 		top: 0;
 		width: 100%;
 	a {
-		color:#000;
+		color:#000 ;
 	}
 	h1 {
 		font-family: 'Kaushan Script', cursive;
@@ -50,7 +54,7 @@ header {
 		font-weight: normal;
 	}
 	li a{
-		color:#000;
+		color:#000 ;
 		font-size: 30px;
 		margin: 5px 20px 0 20px;
 		position:relative;
@@ -82,7 +86,7 @@ header {
 		background-color: $white;
 		color: $white;
 		margin:auto;
-		margin-top: 110px;
+		margin-top: 100px;
 		max-width: 1024px;
 		padding:20px;
 		width: 65%;
@@ -141,17 +145,15 @@ header {
 //Subsidornas wrapper
 .sub {
 		color: $black;
-	img {
-		// height: 200px;
-		margin: auto;
-		margin-bottom: 20px;
-	}
-	.img {
+	.arena {
 		background: url(../images/Arena.jpg) no-repeat;
 		height: 200px;
-		margin-bottom: 20px;
 		background-size: cover;
-
+	}
+	.dragon {
+		background: url(../images/dragon.jpg) no-repeat;
+		height: 200px;
+		background-size: cover;
 	}
 	li a{
 		color:$black;
@@ -250,5 +252,3 @@ header {
 		width: 100%;
 	}
 }
-// Toast grid
-@import 'grid';

@@ -2,9 +2,10 @@
 <html lang="sv">
 <head>
 	<meta charset="UTF-8">
-	<title>Gnestarias</title>
+	<title>Gnestarias - Dragon</title>
+	<link rel="stylesheet" href="../css/grid.css">
 	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/leaflet.css"/>
+	<link rel="stylesheet" href="../css/leaflet.css" />
 	<script src="../scripts/scripts.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -17,14 +18,28 @@
 			</ul>
 	</header>
 	<main class="wrapper sub">
-		<div class="row">
-			<img src="#" alt="Bild på Pizzeria" class="col col--12-of-12">
+		<div class="row--no-gutter">
+			<div class="img dragon col col--3-of-3"></div>
 		</div>
 		<div class="row">
-			<ul>
-				<li class="col col--6-of-12"><a href="#">TEzt</a></li>
-				<li class="col col--6-of-12"><a href="#">TEzt</a></li>
-			</ul>
+			<div class="col col--2-of-12 margin-top">
+				<b>Telefon:</b> <br>
+				<a href="tel: +4615810060">0158-100 60</a>
+			</div>
+			<div class="col col--3-of-12 margin-top">
+				<b>Adress:</b> <br>
+				Marieströmsgatan 6 <br> 646 31 Gnesta
+			</div>
+			<div class="col col--3-of-12 margin-top">
+				<b>Öppetider:</b> <br>
+				Mån-Fre: 10:00-21:00 <br>
+				Lör-Sön: 10:00-22:00 <br>
+			</div>
+			<div class="col col--4-of-12 margin-top">
+				<ul>
+					<li><a href="menu.html">Meny</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="row">
 			<div id="mapid"></div>
@@ -38,7 +53,7 @@
 				attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +'Imagery © <a href="http://mapbox.com">Mapbox</a>',id: 'mapbox.streets'
 			}).addTo(mymap);
 
-			L.marker([59.04766, 17.30993]).addTo(mymap).bindPopup("<b>Eat Meat</b>").openPopup();
+			L.marker([59.04766, 17.30993]).addTo(mymap).bindPopup("<b>Dragon</b>").openPopup();
 
 
 
