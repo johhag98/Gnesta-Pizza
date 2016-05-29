@@ -160,6 +160,16 @@ header {
 		height: 200px;
 		background-size: cover;
 	}
+	.vitavillan {
+		background: url(../images/vitavillan.jpg) no-repeat;
+		height: 200px;
+		background-size: cover;
+	}
+	.athena {
+		background: url(../images/duharec.jpg) no-repeat;
+		height: 200px;
+		background-size: cover;
+	}
 	li a{
 		color:$black;
 		font-size: 25px;
@@ -218,12 +228,14 @@ header {
 	}
 }
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.menu .menyh1:before {
-		content: "====";
+		content: url(../images/itaFlagga.png);
+		margin-right: 10px;
 	}
 	.menu .menyh1:after {
-		content: "====";
+		content: url(../images/itaFlagga.png);
+		margin-left: 10px;
 	}
 	.sub .img {
 		height: 250px;
