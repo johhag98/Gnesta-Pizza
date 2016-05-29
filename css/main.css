@@ -14,12 +14,9 @@ a {
   list-style-type: none; }
 
 ul {
-  padding: 0;
+  list-style-type: none;
   margin: 0;
-  list-style-type: none; }
-
-.smalbold {
-  font-weight: 500; }
+  padding: 0; }
 
 .margin-top {
   margin-top: 20px; }
@@ -28,16 +25,14 @@ header {
   background-color: white;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 999; }
   header a {
     color: #000; }
   header h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
     margin: 0 0 3px 0; }
-  header ul {
-    float: right;
-    margin-top: 13px; }
   header h1, header ul li {
     display: inline-block;
     font-weight: normal; }
@@ -47,14 +42,14 @@ header {
     margin: 5px 20px 0 20px;
     position: relative; }
     header li a:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
       background-color: black;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
       visibility: hidden;
+      width: 100%;
       -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
@@ -65,6 +60,9 @@ header {
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1); }
+    header li a ul {
+      float: right;
+      margin-top: 13px; }
 
 .wrapper {
   background-color: white;
@@ -101,14 +99,14 @@ header {
     position: relative;
     margin: 0; }
     .wrapper a p:before {
+      background-color: white;
+      bottom: 0;
       content: "";
       position: absolute;
-      width: 100%;
       height: 2px;
-      bottom: 0;
       left: 0;
-      background-color: white;
       visibility: hidden;
+      width: 100%;
       -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
@@ -128,38 +126,38 @@ header {
   color: black; }
   .sub .arena {
     background: url(../images/Arena.jpg) no-repeat;
-    height: 200px;
-    background-size: cover; }
+    background-size: cover;
+    height: 200px; }
   .sub .dragon {
     background: url(../images/dragon.jpg) no-repeat;
-    height: 200px;
-    background-size: cover; }
+    background-size: cover;
+    height: 200px; }
   .sub .georges {
     background: url(../images/georges.jpg) no-repeat;
-    height: 200px;
-    background-size: cover; }
+    background-size: cover;
+    height: 200px; }
   .sub .vitavillan {
     background: url(../images/vitavillan.jpg) no-repeat;
-    height: 200px;
-    background-size: cover; }
+    background-size: cover;
+    height: 200px; }
   .sub .athena {
     background: url(../images/duharec.jpg) no-repeat;
-    height: 200px;
-    background-size: cover; }
+    background-size: cover;
+    height: 200px; }
   .sub li a {
     color: black;
     font-size: 25px;
     margin: 5px 20px 0 20px;
     position: relative; }
     .sub li a:before {
+      background-color: black;
+      bottom: 0;
       content: "";
       position: absolute;
-      width: 100%;
       height: 2px;
-      bottom: 0;
       left: 0;
-      background-color: black;
       visibility: hidden;
+      width: 100%;
       -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
@@ -173,18 +171,18 @@ header {
 
 #mapid {
   height: 40vh;
+  margin: 20px 0 0 20px;
   max-height: 450px;
-  min-height: 200px;
-  margin: 20px 0 0 20px; }
+  min-height: 200px; }
 
 .menu {
   color: black; }
   .menu .sortof {
     font-weight: bold; }
   .menu .toping {
-    float: left;
+    color: #333;
     font-size: 14px;
-    color: #333; }
+    float: left; }
   .menu .price {
     float: right; }
   .menu .menyh1 {
@@ -223,11 +221,12 @@ header {
     width: 85%; } }
 @media (max-width: 480px) {
   header h1 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center; }
 
   header li a {
-    font-size: 18px; }
+    font-size: 24px;
+    margin: 5px 5px 0 5px; }
 
   .wrapper {
     width: 100%; } }
