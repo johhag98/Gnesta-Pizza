@@ -12,18 +12,21 @@ body {
 	padding: 0;
 }
 
-a { //Lite globala saker som a taggen inte ska ha
+//Lite globala saker som a taggen inte ska ha
+a {
 	text-decoration:none;
 	list-style-type:none;
 }
 
-ul { //Lite globala saker ul taggen ska ha
+//Lite globala saker ul taggen ska ha
+ul {
 	list-style-type:none;
 	margin: 0;
 	padding: 0;
 }
 
-.margin-top { //En klass för att göra flera element på sub sidorna få en margin-top på 20px
+//En klass för att göra flera element på sub sidorna få en margin-top på 20px
+.margin-top {
 	margin-top: 20px;
 }
 
@@ -41,6 +44,10 @@ header {
 		font-family: 'Kaushan Script', cursive;
 		font-size: 40px;
 		margin: 0 0 3px 0;
+	}
+	ul {
+		float: right;
+		margin-top: 13px;
 	}
 	h1, ul li{
 		display:inline-block;
@@ -69,10 +76,6 @@ header {
 		visibility: visible;
 		-webkit-transform: scaleX(1);
 		transform: scaleX(1);
-	}
-	ul {
-		float: right;
-		margin-top: 13px;
 	}
 }}
 
@@ -235,7 +238,7 @@ header {
 	}
 }
 
-//Kartan för pizzakarta sidan. 
+//Kartan för pizzakarta sidan.
 .map {
 		color: $black ;
 

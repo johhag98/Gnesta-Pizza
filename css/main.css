@@ -33,6 +33,9 @@ header {
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
     margin: 0 0 3px 0; }
+  header ul {
+    float: right;
+    margin-top: 13px; }
   header h1, header ul li {
     display: inline-block;
     font-weight: normal; }
@@ -60,9 +63,6 @@ header {
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1); }
-    header li a ul {
-      float: right;
-      margin-top: 13px; }
 
 .wrapper {
   background-color: white;
