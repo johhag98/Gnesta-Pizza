@@ -167,7 +167,7 @@ header {
 #mapid {
   height: 40vh;
   max-height: 450px;
-  min-height: 200;
+  min-height: 200px;
   margin: 20px 0 0 20px; }
 
 .menu {
@@ -187,6 +187,12 @@ header {
     margin-top: 20px; }
   .menu dd {
     margin: 0; }
+
+.map {
+  color: black; }
+  .map #mapid {
+    height: 60vh;
+    max-height: 700px; }
 
 @media (min-width: 701px) {
   .menu .menyh1:before {
