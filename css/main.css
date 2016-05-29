@@ -77,9 +77,16 @@ header {
   .wrapper h2 {
     font-size: 44px;
     margin: 0; }
+  .wrapper h3 {
+    font-size: 34px;
+    margin: 0; }
   .wrapper p {
     font-size: 25px;
     font-weight: 500; }
+  .wrapper .omImg {
+    float: right;
+    width: 250px;
+    margin-top: 20px; }
   .wrapper li {
     text-align: center; }
   .wrapper a img {
