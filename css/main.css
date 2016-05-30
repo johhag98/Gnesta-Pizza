@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\000034}}
 * {
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\000037}}
 body {
   background: url(../images/pizzaStart.jpg) no-repeat center fixed;
   background-size: cover;
@@ -9,41 +11,53 @@ body {
   margin: 0;
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000316}}
 a {
   text-decoration: none;
   list-style-type: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000323}}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000330}}
 .margin-top {
   margin-top: 20px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000335}}
 header {
   background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000341}}
   header a {
     color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000344}}
   header h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
     margin: 0 0 3px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000349}}
+  header nav {
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000352}}
   header ul {
-    float: right;
     margin-top: 13px; }
-  header h1, header ul li {
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000355}}
+  header h1, header ul li, header nav {
     display: inline-block;
     font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000359}}
   header li a {
     color: #000;
     font-size: 30px;
     margin: 5px 20px 0 20px;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000364}}
     header li a:before {
       background-color: black;
       bottom: 0;
@@ -58,12 +72,14 @@ header {
           transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000378}}
     header li a:hover:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000388}}
 .wrapper {
   background-color: white;
   color: white;
@@ -72,25 +88,32 @@ header {
   max-width: 1024px;
   padding: 20px;
   width: 65%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\0000396}}
   .wrapper h2 {
     font-size: 44px;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003100}}
   .wrapper h3 {
     font-size: 34px;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003104}}
   .wrapper p {
     font-size: 25px;
     font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003108}}
   .wrapper .omImg {
     float: right;
     width: 250px;
     margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003113}}
   .wrapper li {
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003116}}
   .wrapper a img {
     width: 100%;
     height: auto;
     margin-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003121}}
   .wrapper a p {
     color: white;
     display: inline-block;
@@ -98,6 +121,7 @@ header {
     font-weight: 500;
     position: relative;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003128}}
     .wrapper a p:before {
       background-color: white;
       bottom: 0;
@@ -112,43 +136,53 @@ header {
           transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003142}}
   .wrapper a:hover p:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
         transform: scaleX(1); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003152}}
 .main {
   background-color: rgba(51, 51, 51, 0.3);
   text-shadow: 1px 1px 1px #333; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003158}}
 .sub {
   color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003160}}
   .sub .arena {
     background: url(../images/Arena.jpg) no-repeat;
     background-size: cover;
     height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003165}}
   .sub .dragon {
     background: url(../images/dragon.jpg) no-repeat;
     background-size: cover;
     height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003170}}
   .sub .georges {
     background: url(../images/georges.jpg) no-repeat;
     background-size: cover;
     height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003175}}
   .sub .vitavillan {
     background: url(../images/vitavillan.jpg) no-repeat;
     background-size: cover;
     height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003180}}
   .sub .athena {
     background: url(../images/duharec.jpg) no-repeat;
     background-size: cover;
     height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003185}}
   .sub li a {
     color: black;
     font-size: 25px;
     margin: 5px 20px 0 20px;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003190}}
     .sub li a:before {
       background-color: black;
       bottom: 0;
@@ -163,71 +197,91 @@ header {
           transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003204}}
     .sub li a:hover:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003211}}
 #mapid {
   height: 40vh;
   margin: 20px 0 0 20px;
   max-height: 450px;
   min-height: 200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003219}}
 .menu {
   color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003221}}
   .menu .sortof {
     font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003224}}
   .menu .toping {
     color: #333;
     font-size: 14px;
     float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003229}}
   .menu .price {
     float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003232}}
   .menu .menyh1 {
     text-align: center;
     margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003236}}
   .menu dl {
     margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003239}}
   .menu dd {
     margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003245}}
 .map {
   color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003248}}
   .map #mapid {
     height: 60vh;
     max-height: 700px; }
 
 @media (min-width: 701px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003257}}
   .menu .menyh1:before {
     content: url(../images/itaFlagga.png);
     margin-right: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003261}}
   .menu .menyh1:after {
     content: url(../images/itaFlagga.png);
     margin-left: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003265}}
   .sub .img {
     height: 250px; } }
 @media (max-width: 900px) and (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003271}}
   .wrapper p, .wrapper a p {
     font-size: 18px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003274}}
   .wrapper {
     width: 75%; } }
 @media (max-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003280}}
   .wrapper {
     width: 85%; } }
 @media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003286}}
   header h1 {
     font-size: 30px;
     text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003290}}
   header li a {
     font-size: 24px;
     margin: 5px 5px 0 5px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/W\:\/Mina\%20Dokument\/GitHub\/Gnesta-Pizza\/scss\/main\.scss}line{font-family:\00003294}}
   .wrapper {
     width: 100%; } }
 

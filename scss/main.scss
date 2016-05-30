@@ -19,6 +19,7 @@ a {
 }
 
 //Lite globala saker ul taggen ska ha
+
 ul {
 	list-style-type:none;
 	margin: 0;
@@ -45,11 +46,13 @@ header {
 		font-size: 40px;
 		margin: 0 0 3px 0;
 	}
-	ul {
+	nav {
 		float: right;
+	}
+	ul {
 		margin-top: 13px;
 	}
-	h1, ul li{
+	h1, ul li, nav{
 		display:inline-block;
 		font-weight: normal;
 	}
